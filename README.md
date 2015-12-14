@@ -10,5 +10,6 @@ and https://github.com/kamyu104/LintCode
 5. In C++, the map function on hasKey / containsKey equal to count().
 6. Check Soltuion on Union-find.
 7. Use !lookup.emplace(sum, i).second if make a decision on whether this map has this key or not.
+8. In C++, we transform string to a stringstream, and use getline to split this string by delim (WTF).
 
 
