@@ -11,5 +11,21 @@ and https://github.com/kamyu104/LintCode
 6. Check Soltuion on Union-find.
 7. Use !lookup.emplace(sum, i).second if make a decision on whether this map has this key or not.
 8. In C++, we transform string to a stringstream, and use getline to split this string by delim (WTF).
+9. When we want to create a const size of vector, we use vector<int> list(10);
+10. When we create a 2D matrix, we use: vector<vector<int>> matrix(2, vector<int>(10, dafualt value));
+11. When we would like to use priority queue in C++:
+    struct Compare {
+        bool operator()(const Cell& a, const Cell& b) {
+            return a.height > b.height;
+        }
+    };
+        struct Cell {
+        int i;
+        int j;
+        int height;
+    };
+    vector<vector<bool>> is_visited_ = vector<vector<bool>>(m_, vector<bool>(n_, false));
+    priority_queue<Cell ,vector<Cell>, Compare> heap_;
+
 
 
