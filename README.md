@@ -26,6 +26,12 @@ and https://github.com/kamyu104/LintCode
     };
     vector<vector<bool>> is_visited_ = vector<vector<bool>>(m_, vector<bool>(n_, false));
     priority_queue<Cell ,vector<Cell>, Compare> heap_;
+12. When we want to add string in c++:
+	stringstream ss;
+	ss << str1 << str2;
+	return ss.str();
+
+
 
 
 
