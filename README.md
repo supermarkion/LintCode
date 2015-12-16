@@ -30,7 +30,7 @@ and https://github.com/kamyu104/LintCode
 	stringstream ss;
 	ss << str1 << str2;
 	return ss.str();
-
+13. When we use map, we can use map[key] to get value (same as Python).
 
 
 
