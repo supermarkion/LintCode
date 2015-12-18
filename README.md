@@ -31,7 +31,8 @@ and https://github.com/kamyu104/LintCode
 	ss << str1 << str2;
 	return ss.str();
 13. When we use map, we can use map[key] to get value (same as Python).
-
+14. In the simple array, we can new as: double balance[5] = {1.0, 2.0, 3.4, 17.9, 39.4};
+15. If we use new / delete method, new as: long * res = new long[n]; delete res;
 
 
 
