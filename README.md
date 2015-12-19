@@ -34,7 +34,7 @@ and https://github.com/kamyu104/LintCode
 14. In the simple array, we can new as: double balance[5] = {1.0, 2.0, 3.4, 17.9, 39.4};
 15. If we use new / delete method, new as: long * res = new long[n]; delete res;
 16. Remeber, the substr in C++ is different from JAVA, and we should define that new string is: oldString.substr(start, end - start + 1); the second argument is length of new string.
-
+17. lower_bound in C++, excited.
 
 
 
