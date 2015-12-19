@@ -1,6 +1,7 @@
 /*
     Given a string containing only digits, restore it by returning all possible valid IP address combinations.
-    http://www.lintcode.com/en/problem/restore-ip-addresses/
+    Link: http://www.lintcode.com/en/problem/restore-ip-addresses/
+    Example:
     Given "25525511135", return
 		[
 		  "255.255.11.135",
