@@ -36,5 +36,7 @@ and https://github.com/kamyu104/LintCode
 16. Remeber, the substr in C++ is different from JAVA, and we should define that new string is: oldString.substr(start, end - start + 1); the second argument is length of new string.
 17. lower_bound in C++, excited.
 18. C++ erase method, vector.erase(nums.begin() + index);
+19. static_cast is able to perform with pointers to classes not only the conversions allowed implicitly, but also their opposite conversions.
+
 
 
