@@ -37,6 +37,6 @@ and https://github.com/kamyu104/LintCode
 17. lower_bound in C++, excited.
 18. C++ erase method, vector.erase(nums.begin() + index);
 19. static_cast is able to perform with pointers to classes not only the conversions allowed implicitly, but also their opposite conversions.
-
+20. The aim of UNION in C/C++ is to save the data space in apply class or struct.
 
 
