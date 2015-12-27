@@ -38,5 +38,7 @@ and https://github.com/kamyu104/LintCode
 18. C++ erase method, vector.erase(nums.begin() + index);
 19. static_cast is able to perform with pointers to classes not only the conversions allowed implicitly, but also their opposite conversions.
 20. The aim of UNION in C/C++ is to save the data space in apply class or struct.
+21. If we are asked to consider of 32 bits in C++, we should use left_part >= 31 to make sure we overrange or not.
+
 
 
