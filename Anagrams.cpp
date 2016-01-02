@@ -30,7 +30,7 @@ public:
 
         vector<string> anagrams;
         for (const auto& str : strs) {
-            string sorted_str(str);
+            string sorted_str(str);		// copy this string
             sort(sorted_str.begin(), sorted_str.end());
             if (table[sorted_str] >= 2) {
                 anagrams.emplace_back(str);
