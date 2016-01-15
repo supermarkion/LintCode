@@ -1,16 +1,19 @@
 /*
-    Given two words (start and end), and a dictionary, find the length of shortest transformation sequence from start to end, such that:
+    Given two words (start and end), and a dictionary, find all shortest transformation sequence(s) from start to end, such that:
 		Only one letter can be changed at a time
 		Each intermediate word must exist in the dictionary
     
-    Link: http://www.lintcode.com/en/problem/word-ladder/
+    Link: http://www.lintcode.com/en/problem/word-ladder-ii/
 
     Example: Given:
-    	start = "hit"
+		start = "hit"
 		end = "cog"
 		dict = ["hot","dot","dog","lot","log"]
-		As one shortest transformation is "hit" -> "hot" -> "dot" -> "dog" -> "cog",
-		return its length 5.
+		Return
+		  [
+		    ["hit","hot","dot","dog","cog"],
+		    ["hit","hot","lot","log","cog"]
+		  ]
 
     Solution: Given two words (start and end), and a dictionary, find the length of shortest transformation sequence from 
     start to end. We apply BFS to solve. It contains following steps:
