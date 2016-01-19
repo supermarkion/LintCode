@@ -41,6 +41,8 @@ and https://github.com/kamyu104/LintCode
 21. If we are asked to consider of 32 bits in C++, we should use left_part >= 31 to make sure we overrange or not.
 22. When we construct a tree node, we should perform Clone method to aviod pass-by-value issue.
 22. After three days travel, I am totally tired, and reboot to a new life.
+23. The node copy/sepeter template is in Copy List with Random Pointer.cpp.
+
  
 
 
