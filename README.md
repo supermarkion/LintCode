@@ -42,7 +42,7 @@ and https://github.com/kamyu104/LintCode
 22. When we construct a tree node, we should perform Clone method to aviod pass-by-value issue.
 22. After three days travel, I am totally tired, and reboot to a new life.
 23. The node copy/sepeter template is in Copy List with Random Pointer.cpp.
-
+24. Use & at parameter of function to make sure it can be updated all the time.
  
 
 
