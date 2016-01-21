@@ -43,7 +43,7 @@ and https://github.com/kamyu104/LintCode
 22. After three days travel, I am totally tired, and reboot to a new life.
 23. The node copy/sepeter template is in Copy List with Random Pointer.cpp.
 24. Use & at parameter of function to make sure it can be updated all the time.
- 
+25. Upper and Lower bound method template in C++ is in 'Search for a Range.cpp'. 
 
 
 
