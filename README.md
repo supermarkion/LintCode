@@ -44,6 +44,9 @@ and https://github.com/kamyu104/LintCode
 23. The node copy/sepeter template is in Copy List with Random Pointer.cpp.
 24. Use & at parameter of function to make sure it can be updated all the time.
 25. Upper and Lower bound method template in C++ is in 'Search for a Range.cpp'. 
+26. The 1/k major number solution template is located in Majority Number II & III.cpp.
+
+
 
 
 
