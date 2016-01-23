@@ -45,7 +45,7 @@ and https://github.com/kamyu104/LintCode
 24. Use & at parameter of function to make sure it can be updated all the time.
 25. Upper and Lower bound method template in C++ is in 'Search for a Range.cpp'. 
 26. The 1/k major number solution template is located in Majority Number II & III.cpp.
-
+27. We can also use foo (int * num) as function describition, and foo(&x); to perform pass-by-referencce. 
 
 
 
