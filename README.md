@@ -46,6 +46,9 @@ and https://github.com/kamyu104/LintCode
 25. Upper and Lower bound method template in C++ is in 'Search for a Range.cpp'. 
 26. The 1/k major number solution template is located in Majority Number II & III.cpp.
 27. We can also use foo (int * num) as function describition, and foo(&x); to perform pass-by-referencce. 
+28. KMP algorithm implement in C++ lcoated in strStr.cpp file.
+
+
 
 
 
