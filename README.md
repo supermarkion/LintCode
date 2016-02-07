@@ -78,8 +78,6 @@ long * res = new long[n]; delete res;
 
 *  When we construct a tree node, we should perform Clone method to aviod pass-by-value issue.
 
-*  After three days travel, I am totally tired, and reboot to a new life.
-
 *  The node copy/sepeter template is in **Copy List with Random Pointer.cpp**.
 
 *  Use & at parameter of function to make sure it can be updated all the time.
