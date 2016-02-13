@@ -90,6 +90,11 @@ long * res = new long[n]; delete res;
 
 *  KMP algorithm implement in C++ lcoated in strStr.cpp file.
 
+*  There are four important steps to perform debug / write unit test methods.
+   + Does any variables types are correct, does they are all defined before call
+   + Does this method can finish its task? does it will end at its wish.
+   + Does it return the correct data, and modify the correct data.
+   + Does it handle the special input.
 
 
 
