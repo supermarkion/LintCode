@@ -10,5 +10,5 @@ int Endianness(void)
 	} endianTest;
 
 	endianTest, theInteger = 1;
-	return endianTest, singleByte;
+	return endianTest.singleByte;
 }
