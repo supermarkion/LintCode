@@ -1,4 +1,5 @@
 # LintCode
+
 C++11 Solution to LintCode websites
 Some solutions source from [http://www.jiuzhang.com/solutions/][1] and [https://github.com/kamyu104/LintCode][2]
 
@@ -96,9 +97,12 @@ long * res = new long[n]; delete res;
    + Does it return the correct data, and modify the correct data.
    + Does it handle the special input.
 
+# Amazone Web Services
 
+This tutorial used to learn how to install program in cloud-platform, and manage Amazon storage.
 
+* We use AWS Identity and Access Management (IAM) to access AWS [how to create IAM][3]. By this approach, we can create a user list to control access to different kinds of users.
 
 [1]: http://www.jiuzhang.com/solutions/
 [2]: https://github.com/kamyu104/LintCode
-
+[3]: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html
