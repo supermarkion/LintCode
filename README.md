@@ -6,7 +6,7 @@ Some solutions source from [http://www.jiuzhang.com/solutions/][1] and [https://
 * In C++, there is no need to apply "a == NULL", we can apply if (a) or if (!a)to test a is exit or not.
 
 *  When we assign / equal two ListNodes, we should apply: 
-```
+```cpp
     ListNode (star)cur = &dummy.
 ```
 
@@ -26,12 +26,12 @@ Some solutions source from [http://www.jiuzhang.com/solutions/][1] and [https://
 >   vector<int> list(10);
 
 *  When we create a 2D matrix, we use: 
-```
+```cpp
 vector<vector<int>> matrix(2, vector<int>(10, dafualt value));
 ```
 
 *  When we would like to use priority queue in C++:
-```
+```cpp
     struct Compare {
         bool operator()(const Cell& a, const Cell& b) {
             return a.height > b.height;
@@ -47,7 +47,7 @@ vector<vector<int>> matrix(2, vector<int>(10, dafualt value));
 ```
 
 *  When we want to add string in c++:
-```
+```cpp
 	stringstream ss;
 	ss << str1 << str2;
 	return ss.str();
@@ -56,12 +56,12 @@ vector<vector<int>> matrix(2, vector<int>(10, dafualt value));
 *  When we use map, we can use map[key] to get value (same as Python).
 
 *  In the simple array, we can new as:
-``` 
+```cpp
 double balance[5] = {1.0, 2.0, 3.4, 17.9, 39.4};
 ```
 
 *  If we use new / delete method, new as: 
-```
+```cpp
 long * res = new long[n]; delete res;
 ```
 
