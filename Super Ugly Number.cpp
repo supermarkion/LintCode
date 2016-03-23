@@ -35,7 +35,7 @@ public:
             
             for (int j = 0; j < primes.size(); j++)
             {
-                if (primes[j] * result[index[j]] == result[i])
+                if (primes[j] * result[index[j]] == result[i])	// if we meet same result values, move again
                 {
                 	index[j]++;	
                 }
