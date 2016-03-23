@@ -13,3 +13,34 @@
 
     Source: None
 */
+
+class Solution {
+public:
+    /**
+     * @param n a positive integer
+     * @param primes the given prime list
+     * @return the nth super ugly number
+     */
+    int nthSuperUglyNumber(int n, vector<int>& primes) {
+        // Write your code here
+        vector<int> result(n,INT_MAX);
+        result[0] = 1;
+        vector<int> index(primes.size(), 0);
+        for (int i = 1; i < n; i++)
+        {
+            for (int j = 0; j < primes.size(); j++) 
+            {
+            	result[i] = min(result[i], primes[j] * result[index[j]]);	
+            }
+            
+            for (int j = 0; j < primes.size(); j++)
+            {
+                if (primes[j] * result[index[j]] == result[i])
+                {
+                	index[j]++;	
+                }
+            }
+        }
+        return result[n - 1];
+    }
+};
