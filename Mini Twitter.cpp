@@ -94,8 +94,10 @@ public:
             tmp = getTen(users_tweets[user_id]);
         }
 
-        if (friends.find(user_id) != friends.end()) {
-            for (map<int, bool>::iterator it = friends[user_id].begin(); it != friends[user_id].end(); ++it) {
+        if (friends.find(user_id) != friends.end()) 
+        {
+            for (map<int, bool>::iterator it = friends[user_id].begin(); it != friends[user_id].end(); ++it) 
+            {
             	if (it->second) 
 	            {
 	                int user = it->first;
