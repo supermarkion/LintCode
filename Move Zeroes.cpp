@@ -11,3 +11,18 @@
     Source: None
 */
 
+class Solution {
+public:
+    /**
+     * @param nums an integer array
+     * @return nothing, do this in-place
+     */
+    void moveZeroes(vector<int>& nums) {
+        // Write your code here
+        for (int i = 0, j = 0; i < nums.size(); ++i) {
+            if (nums[i]) {
+                swap(nums[i], nums[j++]);
+            }
+        }
+    }
+};
