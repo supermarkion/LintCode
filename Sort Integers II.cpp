@@ -45,7 +45,7 @@ private:
             }
             if (i <= j) 
             {
-                swap(A[i], A[j]);
+                swap(arr[i], arr[j]);
                 i++;
                 j--;
             }
